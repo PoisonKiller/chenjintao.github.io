@@ -1,44 +1,115 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="index.css" />
-		<title>我的个人主页</title>
+		<title>小陈同学的个人主页</title>
 		<script type="text/javascript">
 			
 			
 			
 			document.write("welcome to cjt's pages!</br>");
+			
 		
 
 		</script>
 	</head>
 	<body>
 		
-		<button onclick="alert('果然点到我了!\n作者姓名chenjintao\n学校:厦门大学\nQQ1982631712')">点击查看</button></br>
-		<a href="javascript:alert('点击下面的链接吧')">点我试试</a>
-		<a href="javascript:#">点我什么都不发生</a></br>
+		<button onclick="alert('果然点到我了!\n作者姓名:陈锦涛\n学校:厦门大学\nQQ1982631712')">了解更多？</button></br>
+		<a href="javascript:alert('怎么能这样呢\n欣赏一下呗')">退出该网页</a>
+		这是一篇简单<a href="javascript:#">个人博客</a></br>
 		<hr/>
-		
-		<p><a href="https://www.xmu.edu.cn/">我的大学厦门大学</a></p>
-		<p><a href="https://user.qzone.qq.com/1982631712?source=friendlist">我的qq空间</a></p>
-		<h1>我喜爱的一个动漫角色如下</h1>
-		<img src="woqiyishan.jpeg"
+		<div class="body" style="display:yellow ;">
+		<h1>关于作者</h1>
+		<p>我的大学：<a href="https://www.xmu.edu.cn/">厦门大学</a></p>
+		<p>学院：<a href="https://informatics.xmu.edu.cn/">信息学院</a></p>
+		<hr/>
+		<p>我的QQ：1982631712，点击<a href="https://user.qzone.qq.com/1982631712?source=friendlist">进入qq空间</a></p>
+			</div>
+		<p>平时喜欢看看动漫，漫画，电影，也喜欢玩玩游戏，更喜欢编程哦，下面是我喜欢的一些动漫人物哦</p>
+		<img src="imags/我妻善逸.jpg"
 		 alt="漫画鬼灭之刃中的角色————我妻善逸"
-		 width ="800"
-		 height="450"
+		 width ="300"
+		 height="180"
 		 >
-		 <p>如果你也想看这部漫话的话，请点击
-		 <a href="javascript:alert('漫画名为 鬼灭之刃,自己去百度哦')">这里</a>
+		 <img src="imags/蝴蝶.jpg"
+		  alt="漫画鬼灭之刃中的角色————忍"
+		  width ="300"
+		  height="180"
+		  >
+		  <img src="imags/9柱.jpg"
+		   alt="漫画鬼灭之刃中的角色————柱"
+		   width ="300"
+		   height="180"
+		   >
+		 <p>点击
+		 <a href="https://www.bilibili.com/bangumi/play/ss26801/?from=search&seid=5755471844306210111">这里</a>
+		 可以观看哦！
 		 <hr />
-		 <h2>作者喜欢的游戏有</h2>
-		 <a href="javascript:alert('英雄联盟,穿越火线,csgo')">点我查看哦</a>
-		 你喜欢的游戏呢
-		 <h2>阳光正好，微风不燥</h2>
-		 <p>厦门真是一个美丽的城市呢，来领略一下厦门大学的风光吧</p>
-		 <img src="xmuroad.jpg"
+		 <h2>下面也有作者喜欢的游戏</h2>
+		 <img src="imags/lol.jpg"
+		 width ="300"
+		 height="188">
+		 <img src="imags/cf.jpg"
+		 width ="300"
+		 height="188">
+		 <p>你喜欢的游戏呢,来填一下呗</p><hr/>
+		 <table>	
+					<tr>
+		 		    	<td>姓名</td>
+		 		    	<td><input type="text" value=""/></td>
+		 		    </tr>
+		 			<tr>
+		 				<td>校区</td>
+		 				<td>
+		 					<input type="text" value="翔安校区"/>
+		 				</td>
+		 			</tr>	
+		 			
+		 			<tr>
+		 				<td>游戏</td>
+		 				<td>
+		 					<input type="checkbox" name ="soul">英雄联盟
+		 					<input type="checkbox" name ="soul">穿越火线
+		 					<input type="checkbox" name ="soul">DOTA
+		 					<input type="checkbox" name ="soul">CSGO
+		 					<input type="checkbox" name ="soul">斗地主
+		 					<input type="checkbox" name ="soul">狼人杀
+		 					<input type="checkbox" checked="checked">以上都是					
+		 				</td>
+		 			</tr>	
+		
+		 			<tr>
+		 				<td></td>
+		 				<td><button onclick="alert('作者已经收到(才怪)!\n想让作者收到就发送给邮箱 \n1982631712@qq.com')">确认提交</button></td>
+		 			</tr>
+		 		</table><hr/>
+		 <h2>爱上伊夏</h2>
+		 <p>作者也有摄影的爱好哦，作者平时拍了一些照片，来看看呗</p>
+		 <img src="imags/xmuroad.jpg"
 		 width="300" height="225">
-		 <img src="xmudoor.jpg"
+		 <img src="imags/xmudoor.jpg"
 		 width="300" height="225">
+		 <hr/>
+		 <table>
+			 <tr>
+				 <td>给作者一点鼓励与建议呗</td>
+				 <td><textarea> </textarea></td>
+			 </tr>
+			 <tr>
+			 	<td></td>
+			 	<td><button onclick="alert('已收到哦真的是非常感谢您!')">确认提交</button></td>
+			 </tr>
+		 </table><hr/>
+			 <h3>作者一定会积极学习改进的该网页的</h3>
+			 <p>
+				 <img src="imags/xin.jpg"
+				 width="426" height="200">
+			 </p>
+			 <p>想持续查看该博客的更新情况的话,请进入网址 https://poisonkiller.github.io 或者点击进入
+			 <a href ="https://poisonkiller.github.io">小陈同学的个人博客</a>
+			 </p>
 	</body>
 </html>
